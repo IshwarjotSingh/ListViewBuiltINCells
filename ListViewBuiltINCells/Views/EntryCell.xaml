@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ListViewBuiltINCells.Views.EntryCell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ListView x:Name="lstView">
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+
+                <EntryCell Label="{Binding Name}" Text="{Binding Comment}" />
+
+
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+</ContentPage>
